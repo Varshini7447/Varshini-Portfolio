@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
-
 <body>
     <nav>
         <a href="#text">ABOUT</a>
@@ -28,54 +23,33 @@
         <br>
         <h3>I'm a <span> FRONTEND DEVELOPER</span></h3>
         <br>
-
         <p>Passionate and motivated student aspiring to become a Software Engineer, eager to learn,<br> and develop
             impactful technologies.
             Committed to continuous growth, gaining hands-on<br> experience in the tech industry, and contributing to
             sustainable solutions for a better future.
         </p>
         <a id="resum" href="varshini-resume (1).pdf" target="_blank">RESUME</a>
-
     </header>
-
     <img src="varshini portfolio pic.jpg" alt="Varshini Kakarla" width="450" height="450" id="profile-pic">
-
-
-
-
-
     <section>
         <h1 id="projects">PROJECTS</h1>
         <div class="container">
             <div class="card">
-
                 <h5>Fitness Tracker</h5>
-
                 <p>Developed a fitness tracker application using MERN Stack.
                     Implemented features to track workouts, set goals, and monitor progress.</p>
-
-
             </div>
-
             <div class="card">
-
                 <h5>Job Role Recommendation System</h5>
-
                 <p>Created a job role recommendation system using Python and machine learning
                     to suggest suitable job roles based on user Skills.</p>
-
-            </div>
+             </div>
             <div class="card">
-
                 <h5>Budget Tracker</h5>
                 <p>Developed a budget tracker application using HTML,CSS and JavaScript.
                     Implemented features to track expenses, set budgets, and generate reports.</p>
-
-
-            </div>
-
         </div>
-
+        </div>
     </section>
     <section>
         <h1 id="skillss">SKILLS</h1>
@@ -207,47 +181,11 @@
         <a href="https://www.linkedin.com/in/varshinikakarla7447/"><i class='bx bxl-linkedin'></i></a>
         <a href="mailto:varshinikakarla999@gamil.com"><i class='bx bxl-gmail'></i></a>
         <a href="https://github.com/Varshini7447"><i class='bx bxl-github'></i></a>
-
-
-
     </div>
     <footer>
         <p>&copy; 2025 Hima Varshini Kakarla. All rights reserved.</p>
         <p>Designed by Hima Varshini Kakarla</p>
     </footer>
-
-    <script>
-
-        document.querySelector("form").addEventListener("submit", function (e) {
-            e.preventDefault();
-
-            const name = document.getElementById("name").value.trim();
-            const email = document.getElementById("email").value.trim();
-            const message = document.getElementById("message").value.trim();
-
-            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-            if (!name) {
-                alert("Please enter your name.");
-                return;
-            }
-            if (!emailPattern.test(email)) {
-                alert("Please enter a valid email address.");
-                return;
-            }
-            if (!message) {
-                alert("Please enter a message.");
-                return;
-            }
-
-            alert("Message sent!");
-            this.reset();
-        });
-    </script>
-
-
-
-
+   <script src="script.js"></script>
 </body>
-
 </html>

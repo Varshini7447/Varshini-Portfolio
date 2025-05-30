@@ -291,8 +291,6 @@ header h4 {
     margin-left: 5%;
     margin-right: auto;
 }
-
-/* ==================== CONTACT ==================== */
 .contact {
     display: flex;
     justify-content: center;
@@ -357,8 +355,6 @@ label {
     color: #e1e2e8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-/* ==================== FOOTER ==================== */
 footer {
     background-color: #292929;
     padding: 2rem 0;
